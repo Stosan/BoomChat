@@ -1,6 +1,6 @@
-.images1{
-     	width:40px;
-     	height:35px;
+     .images1{
+     	width:35px;
+     	height:30px;
      	background-image:url("images/m1.png");
      	background-size:100% 100%;
      	transition:2s;
@@ -10,13 +10,13 @@
         background-image:url("images/m2.png");
      }
      .pict{
-     	height:50px;
-     	width:50px;
+     	height:45px;
+     	width:45px;
      	border-radius:50%;
      }
      .images1{
-     	width:40px;
-     	height:35px;
+     	width:35px;
+     	height:30px;
      	background-image:url("images/m1.png");
      	background-size:100% 100%;
      	transition:0.3s;
@@ -26,8 +26,8 @@
         background-image:url("images/m2.png");
      }
      .images2{
-     	width:40px;
-     	height:35px;
+     	width:35px;
+     	height:30px;
      	background-image:url("images/n1.png");
      	background-size:100% 100%;
      	transition:0.3s;
@@ -37,8 +37,8 @@
         background-image:url("images/n2.png");
      }
      .images3{
-     	width:50px;
-     	height:35px;
+     	width:45px;
+     	height:30px;
      	background-image:url("images/g1.png");
      	background-size:100% 100%;
      	transition:0.3s;
@@ -48,15 +48,15 @@
         background-image:url("images/g2.png");
      }
      .images4{
-     	width:40px;
-     	height:35px;
+     	width:35px;
+     	height:30px;
      	background-image:url("images/h1.png");
      	background-size:100% 100%;
      	transition:0.3s;
      	cursor:hand;
      }
      .images4:hover{
-        background-image:url("imagesh2.png");
+        background-image:url("images/h2.png");
      }
      .menu{
      	z-index:4;
@@ -115,170 +115,16 @@
   	width:95%;
   	height:45px;
   	border-radius:10px;
-  	border:1px solid gray;
+  	border:1px solid lightgray;
   	padding:10px;
   	font-family:tahoma;
   	font-size:12px;
   	resize:none;
-  }
-  label.overall{
-  	font-size:18px;
-  	font-weight:bold;
-  	font-family:tahoma;
-  	position:relative;
-  	top:-12px;
-  }
-  p{
-  	white-space:pre-wrap;
-  }
-  .content{
-    font-family:tahoma;
-    font-size:16px;
-    text-align:left;
-    width:100%;
-    white-space:pre-wrap;
-    padding:5px;
-  }
-  .perc{
-  	width:100%;
-  }
-  .txt{
-  	font-size:12px;
-  	font-weight:bold;
-  	font-style:italic;
-  	font-family:tahoma;
-  	color:green;
-  }
-  .interact{
-  	width:35px;
-  	height:30px;
-  	cursor:hand;
-  }
-  .body{
-  	width:50vw;
-    left:25vw;
-    top:115px;
-  	position:absolute;
-  	overflow-y:auto;
-  	z-index:2;
-  	text-align:center;
-  	overflow-x:hidden;
-  }
-  .postleft{
-    position:fixed;
-    top:52px;
-    left:0vw;
-    width:25vw;
-    z-index:2;
-    height:100vh;
-    overflow-y:auto;
-  }
-  .postright{
-    position:fixed;
-    top:52px;
-    right:0vw;
-    width:25vw;
-    z-index:2;
-    height:100vh;
-    overflow-y:auto;
-  }
-  .ov{
-  	padding-left:10px;
-  }
-  @media(max-width:900px){
-  	.body{
-      width:95vw;
-      left:2vw;
-  	}
-  	.postleft, .postright{
-  	  display:none;
-  	}
-  	.posttop{
-  	  width:95vw;
-  	  left:2vw;
-  	}
-  	.posts{
-  		width:85vw;
-  		background-color:white;
-  		left:2vw;
-  	}
-  	label.overall{
-  	   font-size:15px;
-  	   position:relative;
-  	   top:-14px;
-    }
-    .pic{
-       height:350px;
-    }
-    .pic2{
-       height:350px;
-    }
-    .content{
-       font-size:15px;
-    }
-  }
-     .menu{
-     	z-index:4;
-     	width:100vw;
-     	position:fixed;
-     	height:50px;
-     	top:0px;
-     	left:0px;
-     	box-shadow:0px 2px 1px 1px lightgray;
-     	background-color:white;
-     }
-       .posts{
-  	width:50vw;
-  	background-color:rgb(252,252,252);
-  	padding-top:15px;
-  	border-bottom:2px solid lightgray;
-  }
-  .posttop{
-    position:fixed;
-    top:54px;
-    left:25vw;
-    border:2px solid white;
-    width:50vw;
-    height:80px;
-    background-color:white;
-    z-index:3;
-    border-bottom:2px solid lightgray;
-  }
-  .pic{
-  	width:100%;
-  	background-color:powderblue;
-  	height:350px;
-  }
-  .pic2{
-  	width:100%;
-  	background-color:lightpink;
-  	height:350px;
-  }
-  .image{
-  	width:40px;
-  	height:40px;
-  	border-radius:50%;
-  	background-color:tomato;
-  }
-  .image2{
-  	width:40px;
-  	height:40px;
-  	border-radius:50%;
-  	background-color:green;
-  	max-width:40px;
-  	max-height:40px;
-  }
-  ::placeholder{
-  	color:lightgray;
-  }
-  .postbox{
-  	width:95%;
-  	height:45px;
-  	border-radius:10px;
+  	
+   }
+  .postbox:focus{
   	border:1px solid gray;
-  	padding:10px;
-  	font-family:tahoma;
-  	font-size:12px;
+  	outline:none;
   }
   label.overall{
   	font-size:18px;
@@ -308,10 +154,27 @@
   	font-family:tahoma;
   	color:green;
   }
-  .interact{
-  	width:35px;
-  	height:30px;
+  .interact1{
+  	width:30px;
+  	height:25px;
   	cursor:hand;
+  	background-image:url("images/love.png");
+    background-size:100% 100%;
+  }
+  .interact2{
+  	width:30px;
+  	height:25px;
+  	cursor:hand;
+  	background-image:url("images/comment.png");
+    background-size:100% 100%;
+  }
+  .interact1:hover{
+  	background-image:url("images/love2.png");
+    background-size:100% 100%;
+  }
+  .interact2:hover{
+  	background-image:url("images/comment2.png");
+    background-size:100% 100%;
   }
   .body{
   	width:50vw;
@@ -325,7 +188,7 @@
   }
   .postleft{
     position:fixed;
-    top:53px;
+    top:52px;
     left:0vw;
     width:25vw;
     z-index:2;
@@ -334,7 +197,7 @@
   }
   .postright{
     position:fixed;
-    top:53px;
+    top:52px;
     right:0vw;
     width:25vw;
     z-index:2;
