@@ -1,6 +1,6 @@
-.images1{
-     	width:45px;
-     	height:40px;
+     .images1{
+     	width:40px;
+     	height:35px;
      	background-image:url("m1.png");
      	background-size:100% 100%;
      	transition:2s;
@@ -10,13 +10,13 @@
         background-image:url("m2.png");
      }
      .pict{
-     	height:40px;
-     	width:40px;
+     	height:35px;
+     	width:35px;
      	border-radius:50%;
      }
      .images1{
-     	width:45px;
-     	height:40px;
+     	width:40px;
+     	height:35px;
      	background-image:url("m1.png");
      	background-size:100% 100%;
      	transition:0.3s;
@@ -26,8 +26,8 @@
         background-image:url("m2.png");
      }
      .images2{
-     	width:45px;
-     	height:40px;
+     	width:40px;
+     	height:35px;
      	background-image:url("n1.png");
      	background-size:100% 100%;
      	transition:0.3s;
@@ -37,8 +37,8 @@
         background-image:url("n2.png");
      }
      .images3{
-     	width:55px;
-     	height:40px;
+     	width:50px;
+     	height:35px;
      	background-image:url("g1.png");
      	background-size:100% 100%;
      	transition:0.3s;
@@ -48,8 +48,8 @@
         background-image:url("g2.png");
      }
      .images4{
-     	width:45px;
-     	height:40px;
+     	width:40px;
+     	height:35px;
      	background-image:url("h1.png");
      	background-size:100% 100%;
      	transition:0.3s;
