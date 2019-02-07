@@ -1,6 +1,6 @@
      .images1{
-     	width:35px;
-     	height:30px;
+     	width:30px;
+     	height:25px;
      	background-image:url("images/m1.png");
      	background-size:100% 100%;
      	transition:2s;
@@ -10,13 +10,13 @@
         background-image:url("images/m2.png");
      }
      .pict{
-     	height:45px;
-     	width:45px;
+     	height:40px;
+     	width:40px;
      	border-radius:50%;
      }
      .images1{
-     	width:35px;
-     	height:30px;
+     	width:30px;
+     	height:25px;
      	background-image:url("images/m1.png");
      	background-size:100% 100%;
      	transition:0.3s;
@@ -26,8 +26,8 @@
         background-image:url("images/m2.png");
      }
      .images2{
-     	width:35px;
-     	height:30px;
+     	width:30px;
+     	height:25px;
      	background-image:url("images/n1.png");
      	background-size:100% 100%;
      	transition:0.3s;
@@ -37,8 +37,8 @@
         background-image:url("images/n2.png");
      }
      .images3{
-     	width:45px;
-     	height:30px;
+     	width:40px;
+     	height:25px;
      	background-image:url("images/g1.png");
      	background-size:100% 100%;
      	transition:0.3s;
@@ -48,8 +48,8 @@
         background-image:url("images/g2.png");
      }
      .images4{
-     	width:35px;
-     	height:30px;
+     	width:30px;
+     	height:25px;
      	background-image:url("images/h1.png");
      	background-size:100% 100%;
      	transition:0.3s;
@@ -220,9 +220,17 @@
   	  left:2vw;
   	}
   	.posts{
-  		width:85vw;
-  		background-color:white;
-  		left:2vw;
+  	  width:85vw;
+  	  background-color:white;
+  	  left:2vw;
+  	}
+  	.interact1{
+       width:25px;
+  	   height:20px;
+  	}
+  	.interact2{
+  	   width:20px;
+  	   height:20px;
   	}
   	label.overall{
   	   font-size:15px;
